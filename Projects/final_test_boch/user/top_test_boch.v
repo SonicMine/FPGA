@@ -1,4 +1,4 @@
-module test_boch(
+module top_test_boch(
 	input 	clk_50,					// 91
 	input 	OP_KGG,					// 90
 	inout 	[7:0]Data,				// 148...157
