@@ -1,21 +1,3 @@
-/*module jkff_trig(
-   input j,
-   input k,
-   input clk,
-   input clrn,
-   output reg q = 1'b0
-);
-
-always @(posedge clk or negedge clrn)
-begin
-   if (!clrn)         q <= 1'b0;
-   else if (!j && k)  q <= 1'b0;
-   else if (j  && !k) q <= 1'b1;
-   else if (j  && k)  q <= ~q;
-end
-
-endmodule*/
-
 module jkff_trig( 
 	input j,
 	input k,
